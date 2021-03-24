@@ -34,7 +34,6 @@ html
 	height: 100vh
 
 #app .container-content
+	width: 100%
 	height: 100%
-	overflow-y: auto
-	padding: 40px 120px 0px 120px
 </style>

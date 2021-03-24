@@ -1,6 +1,6 @@
 <template>
 	<div id="nav">
-		<v-app-bar dark dense color="#f15e4c" class="full-width">
+		<v-app-bar dark dense color="#8c1172" class="full-width">
 			<v-card
 				elevation="0"
 				class="d-flex justify-center align-center nav-card full-height rounded-0 primary"

@@ -7,7 +7,7 @@ import * as getters from "./getters"
 import * as mutations from "./mutations"
 import * as actions from "./actions"
 
-// import users from "@/views/Users/store"
+import conciliacao from "@/views/Conciliacao/store"
 
 Vue.use(Vuex)
 
@@ -17,8 +17,9 @@ export default new Vuex.Store({
     mutations,
     actions,
     modules: {
+        conciliacao
     },
     plugins: [createPersistedState({
-        paths: ['users']
+        paths: ['conciliacao']
     })],
 })
